@@ -1,10 +1,10 @@
 import schedule
 import time
-import AkshadaTweetExtractor
+import TweetExtractor   #import the task script that has to be run daily
 
 def job(t):
     print ("I'm working...", t)
-    AkshadaTweetExtractor.main()
+    AkshadaTweetExtractor.main()    #call the required function
     print ("Execution completed")
     return
 
