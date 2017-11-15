@@ -1,5 +1,5 @@
 # AutomationScript
-Python Script to run automatically at scheduled times.
+Python Script to run various tasks automatically at scheduled times.
 
 Run the following command on the task file that would run: <br>
 `start /min python TweetExtractor.py &`
